@@ -1,6 +1,7 @@
 import openai
+import env
 
-openai.api_key = "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"
+openai.api_key = env.gpt_key()
 
 class Gpt():
     def __init__(self):

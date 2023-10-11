@@ -7,12 +7,14 @@ class Gpt():
     def __init__(self):
         pass
 
+    @classmethod
     def query_gpt(self, excerpt):
-        question = 'Create 2 flashcards for revision summarising the following text, each with a front and back. They should be formatted in a Python 2D array, where for each element el, el[0] is the front of the card, and el[1] is the back:' + excerpt
+        question = 'Create 3 flashcards for revision summarising the following text, each with a front and back. They should be formatted in a Python 2D array, where for each element el, el[0] is the front of the card, and el[1] is the back. Include nothing other than this Python array, which should have no declaration:' + excerpt
         completion = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "system", "content": question}]   
         )
+        print(completion.choices[0].message["content"].lower().strip('"'))
         return completion.choices[0].message["content"].lower().strip('"')
 
 if __name__ == "__main__":

@@ -1,0 +1,27 @@
+digital transformation with google cloud,course overview
+why cloud technology is transforming business,introduction innovations paradigm shifts and digital transformation what is the cloud? the benefits of cloud computing cloud eras challenges that lead to a digital transformation google�s transformation cloud
+the google cloud adoption framework,
+fundamental cloud concepts,
+total cost of ownership (tco),
+capex vs opex,
+cloud computing service models,there are three main cloud computing service models: iaas paas and saas.
+iaas,infrastructure as a service (iaas) provides virtualized computing resources over the internet.
+paas,platform as a service (paas) provides a platform for developing testing and managing applications.
+leveraging data in your organisation,chapter 2.1.3
+understanding data types,chapter 2.1.4
+important data considerations,chapter 2.1.5
+machine learning,introduction to machine learning and its applications
+what is machine learning?,explanation of what machine learning is
+data quality,importance of data quality in machine learning
+private hybrid and multi-cloud,private hybrid and multi-cloud are different types of cloud computing environments that an organization can utilize. private cloud refers to a cloud infrastructure that is dedicated solely to one organization. hybrid cloud combines both private and public cloud services allowing organizations to take advantage of the benefits of both. multi-cloud involves using multiple cloud services from different providers to meet different needs.
+google cloud compute solutions,google cloud compute solutions refer to the various computing services provided by google cloud platform. this includes infrastructure as a service (iaas) offerings such as virtual machines and storage platform as a service (paas) offerings like google app engine and software as a service (saas) offerings like google cloud storage and google bigquery.
+modernising applications with google cloud,modernizing applications with google cloud involves leveraging the capabilities of google cloud platform to update and improve existing applications. this includes using cloud change patterns to migrate applications to a cloud-native architecture addressing challenges in application development and utilizing services like google kubernetes engine and app engine to deploy and manage applications.
+how apis can modernise legacy systems,3.3.3
+using apis to create new business value,3.3.4
+apigee,3.3.5
+fundamental terms,chapter 4.2.2
+today's top cybersecurity challenges,chapter 4.2.3
+shared responsibility model,chapter 4.2.4
+google cloud platform,a suite of cloud computing services offered by google providing a range of tools and platforms for developing deploying and managing applications.
+compute engine,a virtual machine offered by google cloud platform allowing users to create and run virtual machines in google's data centers.
+app engine,a platform as a service (paas) offered by google cloud platform allowing users to build and deploy applications on google's infrastructure.

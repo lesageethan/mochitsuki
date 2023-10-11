@@ -10,13 +10,19 @@ class FileReader():
         pdf_file_object = open(filename, 'rb')
         pdf_reader = PyPDF2.PdfReader(pdf_file_object)
         output = ""
-        for i in range(len(pdf_reader.pages)):
+        for i in range(3): #len(pdf_reader.pages)
             page = pdf_reader.pages[i]
             output += page.extract_text()
         return output
+    
+    @property
+    def contents_list(self):
+        n = 1000
+        return [self.pdf_contents[i:i+n] for i in range(0, len(self.pdf_contents), n)]
 
 if __name__ == "__main__":
-    f = FileReader("Cambridge IGCSE Textbook.pdf")
+    f = FileReader("test_textbook.pdf")
     print(f.filename)
-    print(f.pdf_contents)
+    #print(f.pdf_contents)
     print(len(f.pdf_contents))
+    print(len(f.contents_list))

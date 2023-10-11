@@ -15,7 +15,8 @@ class FileReader():
             output += page.extract_text()
         return output
 
-f = FileReader("Cambridge IGCSE Textbook.pdf")
-print(f.filename)
-print(f.pdf_contents)
-print(len(f.pdf_contents))
+if __name__ == "__main__":
+    f = FileReader("Cambridge IGCSE Textbook.pdf")
+    print(f.filename)
+    print(f.pdf_contents)
+    print(len(f.pdf_contents))
